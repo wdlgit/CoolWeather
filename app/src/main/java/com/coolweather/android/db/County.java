@@ -3,11 +3,15 @@ package com.coolweather.android.db;
 import org.litepal.crud.DataSupport;
 
 public class County extends DataSupport {
-    private int id;
-    private String countyName;
-    private String weatherId;
-    private int cityId;
+    private int id;//实体类的id
 
+    private String countyName;//县的名字
+
+    private String weatherId;//县所对应天气的id值
+
+    private int cityId;//当前县所属市的id值
+
+    //getter和setter方法
     public int getId() {
         return id;
     }
@@ -39,4 +43,5 @@ public class County extends DataSupport {
     public void setCityId(int cityId) {
         this.cityId = cityId;
     }
+
 }
