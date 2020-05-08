@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="comfort_text" type="id" />
+    <item name="car_wash_text" type="id" />
+    <item name="sport_text" type="id" />
+</resources>
