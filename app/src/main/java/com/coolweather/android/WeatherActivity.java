@@ -57,8 +57,6 @@ public class WeatherActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //初始化各组件
-
         if(Build.VERSION.SDK_INT >= 21){
             View decorView = getWindow().getDecorView();    // 获取DecorView
             decorView.setSystemUiVisibility(
